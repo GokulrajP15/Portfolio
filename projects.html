@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<head>
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+<title>{% block title %}Gokul's{% endblock %}</title>
+</head>
+<body background="{% static 'images/bg1.jpg' %}">
+<header>
+    <div class="container">
+        <h1>Gokulraj Palaniyappan</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+{% endblock %}
+{% block main %}
+<h3 id="ph3">Simple Banking System</h3>
+<p class="pro">A streamlined platform that allows users to deposit funds, withdraw money, and check their balance with ease. This system ensures secure and efficient financial transactions.</p>
+<h3 id="ph3">Hotal Application</h3>
+<p class="pro">An intuitive web application designed to streamline the process of booking rooms and managing reservations. It features a user-friendly interface for customers to browse available rooms, make bookings, and view their reservation details. The application also includes an admin panel for managing room availability, pricing, and customer information, ensuring a smooth and efficient operation for hotel management.</p>
+<h3 id="ph3">Bus Ticket Booking System</h3>
+<p class="pro">A desktop application built using Python's Tkinter library, providing a simple and effective interface for booking bus tickets. Users can easily select their preferred route, choose seats, and make reservations. The system includes features for real-time seat availability, fare calculation, and ticket confirmation, offering a seamless booking experience.</p>
+{% endblock %}
+{% block foot %}
+<footer class="footer">
+    <p>&copy; 2024 Gokulraj Palaniyappan. All rights reserved.</p>
+</footer>
+</body>
+{% endblock %}

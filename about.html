@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<head>
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+<title>{% block title %}Gokul's{% endblock %}</title>
+</head>
+<body background="{% static 'images/bg1.jpg' %}">
+<header>
+    <div class="container">
+        <h1>Gokulraj Palaniyappan</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+{% endblock %}
+{% block main %}
+<h2 class="h2">Objective</h2>
+<p class="ap">To become a part of a collaborative web development team in a reputed organization, where I can share my ideas, learn from others, and work together to design and develop innovative web solutions that meet the highest standards of quality and user experience.</p>
+<h2 class="h2">Educational Background</h2>
+<table>
+    <tr>
+        <th>Course</th>
+        <th>institution</th>
+        <th>Board/University</th>
+        <th>Year of Passing</th>
+        <th>Percentage/CGPA</th>
+    </tr>
+    <tr>
+        <td>B.Tech-Information Technology</td>
+        <td>K.S.Rangasamy College Of Technology, Tiruchengode (Autonomous)</td>
+        <td>Anna University, Chennai </td>
+        <td>2025</td>
+        <td>8.69 (upto 5th Sem)</td>
+    </tr>
+    <tr>
+        <td>HSC</td>
+        <td>Mahendra Matric Higher Secondary School, Tiruchengode</td>
+        <td>State Board</td>
+        <td>2021</td>
+        <td>92.5</td>
+    </tr>
+    <tr>
+        <td>SSLC</td>
+        <td>New Oxford Matriculation School, Tiruchengode</td>
+        <td>State Board</td>
+        <td>2019</td>
+        <td>90.5</td>
+    </tr>
+</table>
+<h2 class="h2">Certifications</h2>
+<p class="p1">• Completed a course on NPTEL in Privacy and Security in Online Social Media.  </p>
+<p class="p1">• Completed the Basic Web Development certification course in Coursera. </p>
+<h2 class="h2">Interns</h2>
+<p class="p1">• Completed an 8-week Virtual Internship as a Salesforce Developer with Smart Internz. </p>
+<p class="p1">• Completed a 2-week Internship as Front-end Developer in San-Technovation(2023). </p>
+{% endblock %}
+{% block foot %}
+<footer class="about_footer">
+    <p>&copy; 2024 Gokulraj Palaniyappan. All rights reserved.</p>
+</footer>
+</body>
+{% endblock %}
+

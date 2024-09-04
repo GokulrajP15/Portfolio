@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+li{
+    display: inline; 
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+li a:hover{
+    background-color: silver;
+    color: crimson;
+}
+li a:hover:active{
+    background-color: black;
+    color: white;
+}
+#image{
+    border-radius: 4%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About Css */
+.about_footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+}
+
+.p{
+    line-height: 30px;
+    text-indent: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.pro{
+    line-height: 30px;
+    text-indent: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.ap{
+    line-height: 30px;
+    text-indent: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+#h2{
+    line-height: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+#h3{
+    line-height: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+#ph3{
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.h2{
+    text-align: center;
+}
+table{
+    margin-left: 60px;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.p1{
+    margin-left: 30%;
+}
+
+/* Contact Css */
+.contact {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+}
+.contact h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.contact-form {
+    width: 100%;
+}
+.form label {
+    text-align: center;
+    font-family: fantasy;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form button {
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color:crimson;
+    color: white;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form button:hover {
+    background-color: #4cae4c;
+}
+.gi{
+    display: flex;
+    padding: 0 20px;
+}
+.fa-github{
+    font-size: 30px;
+    color: black;
+}
+.li{
+    display: flex;
+    padding: 0 20px;
+}
+.icons{
+    display: flex;
+    margin-left: 33%;
+    max-width: 100%;
+}
+.fa-linkedin{
+    font-size: 30px;
+    color: rgb(10,102,194);
+}
+.ph{
+    display: flex;
+    padding: 0 20px;
+}
+.ma{
+    display: flex;
+    padding: 0 20px;
+}
+.wh{
+    display: flex;
+    padding: 0 20px;
+}
+.fa-envelope{
+    font-size: 30px;
+    color: rgb(187,0,27);
+}
+.fa-phone{
+    font-size: 30px;
+    color: rgb(10,102,194);
+}
+.fa-whatsapp{
+    font-size: 30px;
+    /* background-color:rgb(37, 211, 102) ; */
+    color: rgb(37, 211, 102);
+}
+.fa-eye{
+    font-size: 7px;
+    color: #05a794;
+}
+.content{
+    border: 1px solid black;
+}
+.personal{
+    margin-left:27px;
+}
+
+.contact_footer {
+    /* background-color: rgb(37, 211, 102); */
+    background-color:white;
+    /* color: #fff; */
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<head>
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+<title>{% block title %}Gokul's{% endblock %}</title>
+</head>
+<body background="{% static 'images/bg1.jpg' %}">
+<header>
+    <div class="container">
+        <h1>Gokulraj Palaniyappan</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+{% endblock %}
+{% block main %}
+ <img src="{% static 'images/Gokul.jpg' %}" alt="My Image..." width="250px" height="350px" id="image">
+ <h2 id="h2">Welcome to My Portfolio!</h3>
+ <p class="p">Hello! I'm Gokulraj Palaniyappan, an aspiring web developer passionate about creating dynamic and responsive web applications. I'm currently a student, aiming for a career in the IT industry.</p>
+ <h3 id="h3">Why Choose Me?</h3>
+ <p class="p">I am constantly learning and evolving, keeping up with the latest trends and technologies in web development. My goal is to develop solutions that not only meet client needs but also provide an intuitive user experience.</p>
+{% endblock %}
+{% block foot %}
+<footer class="footer">
+    <p>&copy; 2024 Gokulraj Palaniyappan. All rights reserved.</p>
+</footer>
+</body>
+{% endblock %}
